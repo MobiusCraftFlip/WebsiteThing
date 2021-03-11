@@ -1,4 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
+const docsLinks = require("./docsLinks")
+
 module.exports = {
   title: 'IDK what to put here..',
   tagline: 'All of this is changeable',
@@ -16,23 +18,7 @@ module.exports = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          label: 'Emergency',
-          position: 'left', // or 'right'
-          items: [
-            {
-              label: 'CPR',
-              href: '/docs/Emergency/CPR',
-            },
-            {
-              label: 'Choking',
-              href: '/docs/Emergency/Choking',
-            },
-            // ... more items
-          ],
-        },
-      ],
+      items: docsLinks
     },
     footer: {
       style: 'dark',
@@ -107,3 +93,24 @@ module.exports = {
     ],
   ],
 };
+
+
+/*
+[
+        {
+          label: 'Emergency',
+          position: 'left', // or 'right'
+          items: [
+            {
+              label: 'CPR',
+              href: '/docs/Emergency/CPR',
+            },
+            {
+              label: 'Choking',
+              href: '/docs/Emergency/Choking',
+            },
+            // ... more items
+          ],
+        },
+      ],
+*/
