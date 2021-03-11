@@ -3,7 +3,7 @@ module.exports = {
   title: 'IDK what to put here..',
   tagline: 'All of this is changeable',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/WebsiteThing/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
