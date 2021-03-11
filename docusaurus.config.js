@@ -23,11 +23,11 @@ module.exports = {
           items: [
             {
               label: 'CPR',
-              href: 'docs/Emergency/CPR',
+              href: '/docs/Emergency/CPR',
             },
             {
               label: 'Choking',
-              href: 'docs/Emergency/Choking',
+              href: '/docs/Emergency/Choking',
             },
             // ... more items
           ],
